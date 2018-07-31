@@ -21,6 +21,7 @@
 	
 ### feign-service
 
-	使用Spring Cloud Feign。实现服务的声明式调用。
+	使用Spring Cloud Feign。实现服务的声明式调用，开启Hystrix，实现服务降级。
 	
 	API：http://localhost:8003/feign-hello/say
+	
