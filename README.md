@@ -25,3 +25,9 @@
 	
 	API：http://localhost:8003/feign-hello/say
 	
+### zuul-service
+
+	使用Spring Cloud Zuul。实现路由转发和过滤器功能。
+	默认的路由转发规则：/serviceName/**
+	
+	API：http://localhost:7000

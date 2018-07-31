@@ -1,0 +1,11 @@
+server:
+  port: 7000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:5555/eureka/
+
+spring:
+  application:
+    name: zuul-service
