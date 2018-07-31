@@ -14,6 +14,12 @@
 	
 ### ribbon-service
 
-	使用Spring Cloud ribbon。实现服务的调用。
+	使用Spring Cloud Ribbon。实现服务的调用。
 	
 	API：http://localhost:8002/ribbon-hello/say
+	
+### feign-service
+
+	使用Spring Cloud Feign。实现服务的声明式调用。
+	
+	API：http://localhost:8003/feign-hello/say
