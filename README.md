@@ -15,6 +15,7 @@
 ### ribbon-service
 
 	使用Spring Cloud Ribbon。实现服务的调用。
+	使用Spring Cloud Hystrix。实现服务的熔断功能，服务降级。
 	
 	API：http://localhost:8002/ribbon-hello/say
 	
