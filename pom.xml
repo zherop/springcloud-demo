@@ -18,7 +18,7 @@
 
 	<modules>
 		<module>eureka-server</module>
-		<module>hello-server</module>
+		<module>hello-service</module>
 		<module>ribbon-service</module>
 		<module>feign-service</module>
 		<module>zuul-service</module>
