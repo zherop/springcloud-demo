@@ -22,6 +22,8 @@
 		<module>ribbon-service</module>
 		<module>feign-service</module>
 		<module>zuul-service</module>
+		<module>config-server</module>
+		<module>config-client</module>
 	</modules>
 
 	<properties>
@@ -50,6 +52,17 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<repositories>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/libs-milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>

@@ -31,3 +31,15 @@
 	默认的路由转发规则：/serviceName/**
 	
 	API：http://localhost:7000
+	
+### config-server
+
+	使用Spring Cloud Config。实现配置统一管理。从GitHub获取配置文件。config server
+	
+	API：http://localhost:9090/config-client-dev.yml
+	
+### config-client
+	
+	使用Spring Cloud Config。从config server获取配置文件。config client 
+	
+	API：http://localhost:8808/name
