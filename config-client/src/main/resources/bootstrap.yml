@@ -13,6 +13,9 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:9090/
+      #uri: http://localhost:9090/
+      discovery: 
+        enabled: true
+        serviceId: config-server
 
 name: zeng
